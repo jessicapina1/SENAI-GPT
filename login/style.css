@@ -6,8 +6,11 @@
 .robo-image {
 
     background-color: red;
+    background-size:cover;
+    background-position: 0px -100px;
+    
     width: 50vw; /*50% da largura do monitor*/
-    height: 100vh; /*50% da altura da tela*/
+    height: 100vh; /*100% da altura da tela*/
 
 
 }
@@ -19,7 +22,7 @@
 }
 
 .login-container {
-    background-color: green;
+
     width: 50vw;
     height: 100vh;
 
@@ -29,4 +32,8 @@
     align-items: center; /*centralizar horizontalmente*/
     justify-content: center; /*centralizar verticamente*/
 
+}
+
+.login-container img {
+    height: 60px;
 }
