@@ -20,7 +20,6 @@
 
 .robo-image {
 
-    background-color: red;
     background-size:cover;
     background-position: 0px -100px;
     
@@ -58,6 +57,7 @@
     padding: 18px; /*margem interna*/
     background-color: #F7F9FB;
     width: 377px;
+    height: 56px;
     border: 1px solid #ccc; /*grossura da bordinha do campo*/
     border-radius: 10px; /*arredondar borda*/
     margin-bottom: 16px; /*distancia entre os campos*/
