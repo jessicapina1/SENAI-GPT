@@ -29,9 +29,38 @@
 .central-panel{
     height: 100vh;
     width: 80vw;
-    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 260px;   
 
 }
+
+.examples {
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 272px;
+    margin: 16px;
+
+
+}
+
+.menu-central {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 272px;
+
+    
+
+}
+
+
+
 
 .top {
     width: 100%;
@@ -55,18 +84,56 @@
 }
 
 .new-chat {
-    background-color: black;
+    background-color:black;
     color: white;
     border-radius: 12px;
     width: 242px;
     height: 40px;
     font-weight: 400;
+    border: none;
 
 }
 
 .menu-item {
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 12px;
+
+}
+
+.button{
+    border-radius: 8px;
+    width: 280px;
+    height: 48px;
+    border: none;
+    background-color: #F7F9FB;
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: left;
+
+}
+
+.title {
+    font-size: 18px;
+
+}
+
+.chat {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.input{
+    width: 760px;
+    height: 56px;
+    padding: 14px;
+    background-color:#F7F9FB;
+    border: none;
+    opacity: 20%;
+    color: black;
 
 }
