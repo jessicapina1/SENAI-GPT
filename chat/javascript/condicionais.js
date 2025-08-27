@@ -173,8 +173,9 @@ let result = ano % 4
 let result2 = ano % 100
 let result3 = ano % 400
 
-if (result = 0 && result2 !== 0) {alert("ano bissexto")
-}
- 
+if (result == 0 && result3 == 0) {
+  alert("ano bissexto")
+  } else if (result == 0 && result2 !== 0) {alert ("ano bissexto")
+  } else {alert ("ano normal")}
 
 
