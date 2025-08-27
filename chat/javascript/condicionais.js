@@ -94,15 +94,17 @@
 
 //Exercicio Inter 2
 
-// let first = Number(prompt ("Primeiro numero"));
-// let second = Number (prompt ("Segundo numero"));
-// let third = Number (prompt ("Terceiro numero"))
+let first = Number(prompt("Primeiro numero"))
+let second = Number(prompt("Segundo numero"))
+let third = Number(prompt("Terceiro numero"))
 
-// if (first > second && first > third) { alert (first)}
-
-// if (second > third && second > first) {alert (second)}
-
-// if (third > first && third > second) {alert (third)}
+if (first > second && first > third) {
+  alert(first)
+} else if (second > third && second > first) {
+  alert(second)
+} else if (third > first && third > second) {
+  alert(third)
+}
 
 
 //Exercicio Inter 3
