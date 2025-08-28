@@ -94,17 +94,17 @@
 
 //Exercicio Inter 2
 
-let first = Number(prompt("Primeiro numero"))
-let second = Number(prompt("Segundo numero"))
-let third = Number(prompt("Terceiro numero"))
+// let first = Number(prompt("Primeiro numero"))
+// let second = Number(prompt("Segundo numero"))
+// let third = Number(prompt("Terceiro numero"))
 
-if (first > second && first > third) {
-  alert(first)
-} else if (second > third && second > first) {
-  alert(second)
-} else if (third > first && third > second) {
-  alert(third)
-}
+// if (first > second && first > third) {
+//   alert(first)
+// } else if (second > third && second > first) {
+//   alert(second)
+// } else if (third > first && third > second) {
+//   alert(third)
+// }
 
 
 //Exercicio Inter 3
@@ -169,13 +169,13 @@ if (first > second && first > third) {
 
 // Exercicio Avancado 4
 
-let ano = Number(prompt("insira um ano"))
+// let ano = Number(prompt("insira um ano"))
 
-let result = ano % 4
-let result2 = ano % 100
-let result3 = ano % 400
+// let result = ano % 4
+// let result2 = ano % 100
+// let result3 = ano % 400
 
-if ((result == 0 && result3 == 0) || (result == 0 && result2 !== 0)) {
-    alert ("ano bissexto")
-  } else {alert ("ano normal")}
+// if ((result == 0 && result3 == 0) || (result == 0 && result2 !== 0)) {
+//     alert ("ano bissexto")
+//   } else {alert ("ano normal")}
 
