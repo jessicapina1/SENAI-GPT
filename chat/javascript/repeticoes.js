@@ -97,3 +97,100 @@ for (contadora= 1; contadora>numero; contadora++ ) {
   console.log (resultado2)
 
 }
+
+
+// let numero = Number(prompt("Insira um numero"))
+
+// let contadora= 0;
+
+
+// let resultado = 0;
+
+// for (contadora= 1; contadora <= numero; contadora++) {
+//   resultado = resultado+contadora;
+//   //console.log(contadora);
+//   console.log(resultado);
+// }
+
+// console.log("resultado final: " +resultado);
+
+//let i =0;
+
+// for (i=0; i<= 50; i++){
+//   if(i%2 == 0) {
+//     console.log (i);
+//   }
+// }
+
+//=========================================================
+// let contadoraWhile = 5;
+// while (contadoraWhile >= 1) {
+
+//   console.log(contadoraWhile);
+
+//   contadoraWhile--;
+
+// }
+
+// let contadoraWhile = Number(prompt("Insira um numero"));
+
+// while (contadoraWhile >= 0) {
+//   console.log(contadoraWhile);
+//   contadoraWhile = contadoraWhile -1;
+//   //   contadoraWhile--;
+//   // contadoraWhile -= 1;
+
+// }
+
+// const aleatorio = Math.floor(Math.random() * 5) + 1;
+// let numero = Number(prompt("Adivinhe o numero"));
+
+// while (numero != aleatorio) {
+//   if (numero > aleatorio) {
+//     alert("Foi maior!")
+//   }
+//   else if (numero < aleatorio) {
+//     alert("Foi menor!")
+//   }
+ 
+
+//   numero = Number(prompt("Adivinhe o numero"));
+
+
+// }
+//     alert("BRINDE")
+
+
+
+
+
+
+// const aleatorio = Math.floor(Math.random() * 5) + 1;
+// let numero = Number(prompt("Adivinhe o numero"));
+// let jogar = true;
+
+// while (jogar) {
+//   if (numero > aleatorio) {
+//     alert("Foi maior!");
+//     numero = Number(prompt("Adivinhe o numero"));
+//   }
+//   else if (numero < aleatorio) {
+//     alert("Foi menor!");
+//     numero = Number(prompt("Adivinhe o numero"));
+//   } else {
+//     alert("BRINDE");
+//     jogar = false;
+//   }
+ 
+//}
+  
+//=========================================================
+
+let numeroTexto = "123";
+listCaracteres =numeroTexto.split(CharacterData);
+ bla = ["1","2", "3"];
+ 
+
+console.log(listCaracteres);
+  
+
