@@ -94,4 +94,6 @@ for (contadora= 1; contadora>numero; contadora++ ) {
 
   let resultado2 = numero + contadora
 
+  console.log (resultado2)
+
 }
