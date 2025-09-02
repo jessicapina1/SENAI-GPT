@@ -1,7 +1,7 @@
 function demoFilter () {
     const numeros = [1, 2, 3, 4, 5, 6]; //Array ==lista
 
-    let numerosFiltrados = numeros.filter (numerosFiltrados => numero > 2); // numero pode ser qualquer nome
+    let numerosFiltrados = numeros.filter (numero => numero > 2); // numero pode ser qualquer nome
     
     console.log (numerosFiltrados);
 
