@@ -48,7 +48,7 @@
 
 
 
-// Exercicio 1
+// Exercicio 1 - BASICO
 
 // debugger;
 
@@ -59,7 +59,7 @@
 // }
 
 
-//Exercicio 2
+//Exercicio 2 - BASICO
 
 // debugger;
 
@@ -74,7 +74,7 @@
 
 // }
 
-//Exercicio 3
+//Exercicio 3 - BASICO
 
 debugger;
 
@@ -132,16 +132,9 @@ for (contadora= 1; contadora>numero; contadora++ ) {
 
 // }
 
-// let contadoraWhile = Number(prompt("Insira um numero"));
 
-// while (contadoraWhile >= 0) {
-//   console.log(contadoraWhile);
-//   contadoraWhile = contadoraWhile -1;
-//   //   contadoraWhile--;
-//   // contadoraWhile -= 1;
 
-// }
-
+// EXERCICIO 2 - INTERMEDIARIO - TESTE 1
 // const aleatorio = Math.floor(Math.random() * 5) + 1;
 // let numero = Number(prompt("Adivinhe o numero"));
 
@@ -163,7 +156,7 @@ for (contadora= 1; contadora>numero; contadora++ ) {
 
 
 
-
+//EXERCICIO 2 - INTERMEDIARIO - TESTE 2 
 
 // const aleatorio = Math.floor(Math.random() * 5) + 1;
 // let numero = Number(prompt("Adivinhe o numero"));
@@ -183,14 +176,20 @@ for (contadora= 1; contadora>numero; contadora++ ) {
 //   }
  
 //}
+
+
+
+// EXERCICIO 3 - INTERMEDIARIO 
+// let contadoraWhile = Number(prompt("Insira um numero"));
+
+// while (contadoraWhile >= 0) {
+//   console.log(contadoraWhile);
+//   contadoraWhile = contadoraWhile -1;
+//   //   contadoraWhile--;
+//   // contadoraWhile -= 1;
+
+// }
   
 //=========================================================
 
-let numeroTexto = "123";
-listCaracteres =numeroTexto.split(CharacterData);
- bla = ["1","2", "3"];
- 
-
-console.log(listCaracteres);
-  
 
